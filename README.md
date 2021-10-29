@@ -6,4 +6,4 @@
 
 #### Update: 2021-10-29
 
-Writing a bunch of assignments at the moment for school and have upcoming evaluations for other courses so this personal project will be put on the backburner for now.
+Writing a bunch of assignments at the moment for school and have upcoming evaluations for other courses so this personal project will be put on the backburner for now. Will return when my schedule clears up slightly.
