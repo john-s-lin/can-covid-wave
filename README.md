@@ -4,6 +4,9 @@
 
 **Disclaimer**: Please note that this project is for my personal learning and is just for fun. Although the data is publicly accessible, these analyses should **not** be used to guide real-world decisions. Models used an idealized input and are not adequate representations of human behaviour.
 
-#### Update: 2021-10-29
+#### Update: 2021-12-07
 
-Writing a bunch of assignments at the moment for school and have upcoming evaluations for other courses so this personal project will be put on the backburner for now. Will return when my schedule clears up slightly.
+**TODO**: A weaker model looks only at the shape of the curve to generate a forecast. I don't want to do that since pandemic wave modeling depends on a plethora of external factors such as vaccination rates, mask mandates, travel restrictions, distance learning, remote work, etc. The [COVID-19 Outbreak Analysis](https://covidpredictions.mit.edu/) from MIT acts as inspiration for this project.
+[] Make a synthetic dataset with a known function and sample from it to train prediction model as a sanity check
+[] Look into Facebook Prophet API for forecasting algorithms
+[] Look into other forecasting models done by other universities
