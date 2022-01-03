@@ -6,7 +6,7 @@
 
 #### Update: 2022-01-03
 
-Playing around with the [COVID-19 Outbreak Analysis](https://covidpredictions.mit.edu/) tool from MIT has allowed me to figure out that they implemented the dashboard using `plotly` and `dash`.
+Playing around with the [COVID-19 Outbreak Analysis](https://covidpredictions.mit.edu/) tool from MIT has allowed me to figure out that they implemented the dashboard using `plotly` and `dash`. Moreover, it seems like their prediction model stems from a mixture of multiple gaussians of different amplitudes summed together into one lineplot. If I were to implement a prediction model for Canada based on this, it would be _relatively_ simple to perform a fourier transform to decompose the waves into individual peaks. So let's set that as a first step and once we're there, we can think about adding complexity such as vaccination rate, mask mandates, lockdown measures, etc.
 
 - [ ] Generate a dashboard for front-end interactive web app using `dash` using `plotly`
 
