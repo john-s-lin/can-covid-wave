@@ -4,6 +4,12 @@
 
 **Disclaimer**: Please note that this project is for my personal learning and is just for fun. Although the data is publicly accessible, these analyses should **not** be used to guide real-world decisions. Models used an idealized input and are not adequate representations of human behaviour.
 
+#### Update: 2022-01-03
+
+Playing around with the [COVID-19 Outbreak Analysis](https://covidpredictions.mit.edu/) tool from MIT has allowed me to figure out that they implemented the dashboard using `plotly` and `dash`.
+
+- [ ] Generate a dashboard for front-end interactive web app using `dash` using `plotly`
+
 #### Update: 2021-12-07
 
 **TODO**: A weaker model looks only at the shape of the curve to generate a forecast. I don't want to do that since pandemic wave modeling depends on a plethora of external factors such as vaccination rates, mask mandates, travel restrictions, distance learning, remote work, etc. The [COVID-19 Outbreak Analysis](https://covidpredictions.mit.edu/) from MIT acts as inspiration for this project.
