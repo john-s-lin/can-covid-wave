@@ -36,12 +36,12 @@ def main():
 
     # Then download the datasets
     for file in files_list:
-        if not os.path.exists("../data/" + file):
-            download(url_prefix + file, "../data/" + file)
+        if not os.path.exists("data/" + file):
+            download(url_prefix + file, "data/" + file)
         else:
             # Get the time of modification for the target file
             last_updated = datetime.datetime.utcfromtimestamp(
-                os.path.getctime("../data/" + file)
+                os.path.getctime("data/" + file)
             )
 
             # If the age of the file is >1 week old,
@@ -53,7 +53,7 @@ def main():
                     f"{file} is >1 week old at {age.days} days. Redownloading {file} from source..."
                 )
                 os.remove("../data/" + file)
-                download(url_prefix + file, "../data/" + file)
+                download(url_prefix + file, "data/" + file)
             else:
                 logging.info(f"{file} is <1 week old at {age.days} days.")
 
