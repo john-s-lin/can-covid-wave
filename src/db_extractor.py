@@ -52,7 +52,7 @@ def main():
                 logging.info(
                     f"{file} is >1 week old at {age.days} days. Redownloading {file} from source..."
                 )
-                os.remove("../data/" + file)
+                os.remove("data/" + file)
                 download(url_prefix + file, "data/" + file)
             else:
                 logging.info(f"{file} is <1 week old at {age.days} days.")
