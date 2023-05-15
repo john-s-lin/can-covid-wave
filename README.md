@@ -8,9 +8,13 @@ Data is extracted from Health Canada's website and explored in `src/exploration.
 
 ### Modeling
 
-The data is modeled using Facebook's Prophet library in `src/model.ipynb`. The prediction plots are modeled with a `PERIOD = 30` days using `prophet`'s plotting function. As you can see, there's not seasonality that can be modeled, since at the beginning of 2021 vaccines were made available in Canada.
+The data is modeled using Facebook's Prophet library in `src/model.ipynb`. The prediction plots are modeled with a `PERIOD = 30` days using `prophet`'s plotting function. As you can see, there's not much seasonality that can be modeled, since at the beginning of 2021 vaccines were made available in Canada.
 
 ![Predictions](/docs/assets/predict_plot.png)
+
+### Next Steps and Further Questions
+
+Using vaccination data, is it possible to finetune the models or would a more "complex" model be required to better predict COVID-19 cases in a longer time frame?
 
 ---
 
