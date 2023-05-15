@@ -6,6 +6,8 @@
 
 Data is extracted from Health Canada's website and explored in `src/exploration.ipynb`.
 
+![COVID Waves](/docs/assets/covid_avg_wave_plot.png)
+
 ### Modeling
 
 The data is modeled using Facebook's Prophet library in `src/model.ipynb`. The prediction plots are modeled with a `PERIOD = 30` days using `prophet`'s plotting function. As you can see, there's not much seasonality that can be modeled, since at the beginning of 2021 vaccines were made available in Canada.
